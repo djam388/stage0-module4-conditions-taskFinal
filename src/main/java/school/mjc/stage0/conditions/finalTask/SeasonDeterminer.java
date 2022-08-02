@@ -29,7 +29,7 @@ public class SeasonDeterminer {
                 System.out.println("Autumn");
                 break;
             default:
-                System.out.println("Wring month number");
+                System.out.println("Wrong month number");
                 break;
         }
     }

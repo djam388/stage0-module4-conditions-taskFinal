@@ -2,13 +2,14 @@ package school.mjc.stage0.conditions.finalTask;
 
 public class IntegerDivider {
     public static void main(String[] args) {
-        printCompletelyDivided(5, 0);
+        printCompletelyDivided(5, 2);
     }
     public static void printCompletelyDivided(int dividend, int divider) {
-        double result;
-        result = (double) dividend / (double) divider;
+        int result;
+        result = dividend / divider;
+
         if (divider != 0) {
-            if ((double) divider * result == (double) dividend) {
+            if (divider * result == dividend) {
                 System.out.println("can be divided completely");
             }
             else {
